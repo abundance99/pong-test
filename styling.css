@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#gameArea {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    border: 2px solid white;
+}
+
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 60px;
+    background-color: white;
+}
+
+#paddleA {
+    left: 0;
+    top: 170px;
+}
+
+#paddleB {
+    right: 0;
+    top: 170px;
+}
+
+#ball {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    left: 295px;
+    top: 195px;
+}
